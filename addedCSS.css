@@ -1,0 +1,63 @@
+/*指针样式*/
+body {
+    cursor: url(./default.cur),
+        default;
+}
+/*链接小手样式*/
+a,
+img {
+    cursor: url(./pointer.cur),
+        default;
+}
+
+/* 页脚透明 */
+#footer{
+    background: transparent!important;
+  }
+/* 头图透明 
+#page-header{
+  background: transparent!important;
+  }*/
+  
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header.post-bg:before {
+    background-color: transparent!important;
+  } 
+  
+/* bf更新到4.0.1之后，使用这个
+#page-header:not(.not-top-img):before {
+    background-color: transparent!important;
+  }
+*/
+/*夜间模式伪类遮罩层透明*/
+  [data-theme="dark"]
+    #footer::before{
+        background: transparent!important;
+    }
+  [data-theme="dark"]
+    #page-header::before{
+      background: transparent!important;
+      }
+
+
+/* 全局透明渐变 */ 
+/*
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+  background: var(--light_bg_color)
+}
+
+#aside-content .card-widget {
+  background: var(--light_bg_color)
+}*/
+
+#web_bg {
+  background: hsla(272, 91%, 91%, 1);
+
+  background: linear-gradient(90deg, hsla(272, 91%, 91%, 1) 0%, hsla(254, 63%, 77%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(272, 91%, 91%, 1) 0%, hsla(254, 63%, 77%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(272, 91%, 91%, 1) 0%, hsla(254, 63%, 77%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9D2FD", endColorstr="#B09EE9", GradientType=1 );
+}
