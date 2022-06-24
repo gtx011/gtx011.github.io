@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "font1";
+    src: url("./RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: "font1-iatlic";
+    src: url("./RobotoSerif-Italic-VariableFont_GRAD\,opsz\,wdth\,wght.ttf");
+}
+
+body {
+    font-family: font1, font1-italic,-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "STZhongsong", "Lantinghei SC", sans-serif
+    }
+    
