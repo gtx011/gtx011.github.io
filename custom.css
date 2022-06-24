@@ -61,3 +61,42 @@ img {
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9D2FD", endColorstr="#B09EE9", GradientType=1 );
 }
+/* 全局透明渐变 */ 
+
+
+/* 标题易读 */
+#article-container h1:before {
+  content: "H₁";
+  margin: -.2rem 0 0 -2.3rem;
+}
+#article-container h2:before {
+  content: "H₂";
+  margin: -.2rem 0 0 -2.2rem;
+}
+#article-container h3:before {
+  content: "H₃";
+  margin: -.1rem 0 0 -2.1rem;
+}
+#article-container h4:before {
+  content: "H₄";
+  margin: -.07rem 0 0 -1.9rem;
+}
+#article-container h5:before {
+  content: "H₅";
+  margin: -.02rem 0 0 -1.8rem;
+}
+#article-container h6:before {
+  content: "H₆";
+  margin: -.02rem 0 0 -1.8rem;
+}
+
+/* 链接颜色 */
+#article-container a {
+  color: #2596be;
+}
+
+/* hr颜色 */
+hr {
+  border: 2px dashed #009688;
+  --hr-before-color: #009688;
+}
